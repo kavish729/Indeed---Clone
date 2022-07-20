@@ -6,7 +6,10 @@ import Profile from '../../Pages/Profile'
 import SalaryGuide from '../../Pages/SalaryGuide'
 import Signin from '../SignIn/Signin'
 import Signup from '../Sign_up/Signup'
-
+import Message from "../../Pages/Message"
+import Notification from "../../Pages/Notification"
+import { HelpCenter } from '../../Pages/HelpCenter'
+import EmployersPostJob from '../../Pages/EmployersPostJob'
 const AllRouter = () => {
   return (
     <Routes>
@@ -16,6 +19,9 @@ const AllRouter = () => {
       <Route path="/profile" element={<Profile />} />
       <Route path="/signin" element={<Signin />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/message" element={<Message />} />
+      <Route path="/notification" element={<Notification />} />
+      <Route path="/postjobs" element={<EmployersPostJob />} />
     </Routes>
   );
 }
