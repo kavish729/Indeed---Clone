@@ -22,6 +22,7 @@ const AllRouter = () => {
       <Route path="/message" element={<Message />} />
       <Route path="/notification" element={<Notification />} />
       <Route path="/postjobs" element={<EmployersPostJob />} />
+      <Route path="/help" element={<HelpCenter />} />
     </Routes>
   );
 }

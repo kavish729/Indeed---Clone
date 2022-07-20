@@ -1,21 +1,36 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Box,
   Tabs,
   TabList,
   Tab,
   Flex,
+  List,
+  ListItem,
+  Divider,
+  Button,
 } from '@chakra-ui/react';
 import './Navbar.css';
 import Indeed from './Icons/indeed.svg';
 import Message from './Icons/message.svg';
 import Notification from './Icons/notification.svg';
 import Profile from './Icons/profile.svg';
+import ProfileResume from './Icons/profileResume.svg';
+import Settings from './Icons/Settings.svg';
+import MyReviews from './Icons/myReviews.svg';
+import MyJobs from './Icons/myjobs.svg';
+import HelpCenter from './Icons/helpCentre.svg';
+import EmailSettings from './Icons/emailSettings.svg';
 import UkrenSupport from './Icons/ukraine_support.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+  const [profile, setProfile] = useState(false);
+
+  const handleProfileClick = () => {
+    setProfile(!profile);
+  };
+
   return (
     <Box w="100%" h="5rem">
       <Flex justifyContent="space-between" margin="12px" className="navbar">
@@ -73,12 +88,7 @@ const Navbar = () => {
             </Tabs>
           </Box>
         </Box>
-        <Box
-          h="3.25rem"
-          w="50%"
-          paddingBottom="5px"
-          display="flex"
-        >
+        <Box h="3.25rem" w="50%" paddingBottom="5px" display="flex">
           <Tabs w="100%" variant="unstyled">
             <TabList>
               <NavLink to="/message">
@@ -115,23 +125,120 @@ const Navbar = () => {
                   />
                 </Tab>
               </NavLink>
-              <NavLink to="/profile">
-                <Tab
-                  marginTop="11px"
-                  _hover={{
-                    marginTop: '11px',
-                    borderBottom: '2px solid #2f5eaa',
-                    color: '#2f5eaa',
-                  }}
-                >
-                  <img
-                    width="25rem"
-                    height="100%"
-                    src={Profile}
-                    alt="indeed icon"
-                  />
-                </Tab>
-              </NavLink>
+
+              <Tab
+                value={profile}
+                onClick={handleProfileClick}
+                className="profile"
+                marginTop="11px"
+                _hover={{
+                  marginTop: '11px',
+                  borderBottom: '2px solid #2f5eaa',
+                  color: '#2f5eaa',
+                }}
+              >
+                <img
+                  width="25rem"
+                  height="100%"
+                  src={Profile}
+                  alt="indeed icon"
+                />
+              </Tab>
+
+              <Box
+                className="slideCorner"
+                style={{ opacity: profile ? 1 : 0 }}
+              ></Box>
+              <Box
+                className="profileSlide"
+                style={{ opacity: profile ? 1 : 0 }}
+              >
+                <List>
+                  <NavLink to="/profile">
+                    <ListItem
+                      className="profileList"
+                      onClick={handleProfileClick}
+                    >
+                      <img
+                        width="25rem"
+                        height="25rem"
+                        src={ProfileResume}
+                        alt=""
+                      />
+                      Profile
+                    </ListItem>
+                  </NavLink>
+                  <NavLink to="/profile">
+                    <ListItem
+                      className="profileList"
+                      onClick={handleProfileClick}
+                    >
+                      <img width="25rem" height="25rem" src={MyJobs} alt="" />
+                      My Jobs
+                    </ListItem>
+                  </NavLink>
+                  <NavLink to="/profile">
+                    <ListItem
+                      className="profileList"
+                      onClick={handleProfileClick}
+                    >
+                      <img
+                        width="25rem"
+                        height="25rem"
+                        src={MyReviews}
+                        alt=""
+                      />
+                      My Reviews
+                    </ListItem>
+                  </NavLink>
+
+                  <NavLink to="/profile">
+                    <ListItem
+                      className="profileList"
+                      onClick={handleProfileClick}
+                    >
+                      <img
+                        width="25rem"
+                        height="25rem"
+                        src={EmailSettings}
+                        alt=""
+                      />
+                      Email Settings
+                    </ListItem>
+                  </NavLink>
+                  <NavLink to="/profile">
+                    <ListItem
+                      className="profileList"
+                      onClick={handleProfileClick}
+                    >
+                      <img width="25rem" height="25rem" src={Settings} alt="" />
+                      Settings
+                    </ListItem>
+                  </NavLink>
+                  <NavLink to="/help">
+                    <ListItem
+                      className="profileList"
+                      onClick={handleProfileClick}
+                    >
+                      <img
+                        width="25rem"
+                        height="25rem"
+                        src={HelpCenter}
+                        alt=""
+                      />
+                      Help Center
+                    </ListItem>
+                  </NavLink>
+                  <Divider />
+                  <Button
+                    className="signout-btn"
+                    colorScheme="#2558a8"
+                    variant="ghost"
+                  >
+                    Sign Out
+                  </Button>
+                </List>
+              </Box>
               <Tab
                 h="25px"
                 marginTop="18px"
@@ -155,5 +262,5 @@ const Navbar = () => {
       </Flex>
     </Box>
   );
-}
+};
 export default Navbar;
