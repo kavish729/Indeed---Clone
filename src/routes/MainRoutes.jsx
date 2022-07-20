@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import CompanyReview from "../pages/CompanyReview";
+import Findjobs from "../pages/Findjobs";
 
 import SalaryGuide from "../pages/SalaryGuide";
 
@@ -11,12 +12,17 @@ const MainRoutes = () => {
     <>
       <Routes>
 
+      <Route path="/" element={<Findjobs/>} />
+   
+
+
       
        <Route path="/salaryguide" element={<SalaryGuide/>} />
 
-        <Route path="/" element={<HelpCenter />} />
+        <Route path="/helpcenter" element={<HelpCenter />} />
         <Route path="/companyreview" element={<CompanyReview />} />
        
+
 
       </Routes>
     </>

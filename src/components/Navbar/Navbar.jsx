@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import {
   Box,
@@ -77,13 +77,6 @@ const Navbar = () => {
       </Flex>
     </Box>
   );
-=======
-import { Container } from "@chakra-ui/react";
-import React from "react";
 
-const Navbar = () => {
-  return <Container></Container>;
->>>>>>> d98c9b3eba3fe32956f8846eaf72a4bad3f9362a
-};
 
 export default Navbar;
