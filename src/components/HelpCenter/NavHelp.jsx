@@ -129,9 +129,9 @@ export const NavHelp = () => {
             _hover="false"
           >
             {colorMode === "light" ? (
-              <MoonIcon color="#9d9d9d" />
-            ) : (
               <SunIcon color="#457cd5" />
+            ) : (
+              <MoonIcon color="#9d9d9d" />
             )}
           </Button>
         </Box>
