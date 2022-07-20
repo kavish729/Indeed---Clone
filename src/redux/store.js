@@ -5,7 +5,7 @@ import {
   legacy_createStore,
 } from "redux";
 import thunk from "redux-thunk";
-import { appReducer } from "./authReducer/reducer";
+import { appReducer } from "./appReducer/reducer";
 
 const rootReducer = combineReducers({
   appReducer: appReducer,
