@@ -3,7 +3,7 @@
     {
       "id": 1,
       "company": "Flipkart.com",
-      "logo": "https://www.searchpng.com/wp-content/uploads/2019/01/Flipart-Logo-Icon-PNG-Image.png",
+      "logo": "https://www.enggwave.com/wp-content/uploads/2015/09/Flipkart-Logo.png",
       "description": "Flipkart is an e-commerce company founded in 2007 by Sachin Bansal and Binny Bansal. It is a Singaporean company which operates in India, where it is headquartered in Bangalore, Karnataka.",
       "ceo_name": "Kalyan Krishnamurthy",
       "ceo_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Z0RtJJvVuvBUpSKlm2ijvEK8iadSFGshZg&usqp=CAU",
@@ -14,7 +14,7 @@
       "photos": 23,
       "jobs": 173,
       "questions": 94,
-      "ratings": 5
+      "ratings": 5,"reviews":1326
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "photos": 174,
       "jobs": 2005,
       "questions": 19,
-      "ratings": 5
+      "ratings": 5,"reviews":7546
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "photos": 72,
       "jobs": 1493,
       "questions": 22,
-      "ratings": 4
+      "ratings": 4,"reviews":736
     },
     {
       "id": 4,
@@ -62,7 +62,7 @@
       "photos": 43,
       "jobs": 475,
       "questions": 13,
-      "ratings": 3
+      "ratings": 3,"reviews":1326
     },
     {
       "id": 5,
@@ -78,7 +78,7 @@
       "photos": 7,
       "jobs": 7,
       "questions": 34,
-      "ratings": 3
+      "ratings": 3,"reviews":1146
     },
     {
       "id": 6,
@@ -94,7 +94,7 @@
       "photos": 1,
       "jobs": 3,
       "questions": 13,
-      "ratings": 4
+      "ratings": 4,"reviews":421
     }
   ]
   
