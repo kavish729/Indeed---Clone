@@ -1,17 +1,9 @@
 import React from 'react'
-import Seachbar from '../components/FindJobs/Seachbar'
-import {Box,Flex} from '@chakra-ui/react'
 
-const Findjobs = () => {
+const FindJobs = () => {
   return (
-    <div>
-      <Seachbar/>
-      <Flex>
-        <Box></Box>
-        <Box></Box>
-      </Flex>
-    </div>
+    <div>FindJobs</div>
   )
 }
 
-export default Findjobs
+export default FindJobs
