@@ -4,11 +4,8 @@ import {
   Box,
   Tabs,
   TabList,
-  TabPanels,
   Tab,
-  TabPanel,
   Flex,
-  Spacer,
 } from '@chakra-ui/react';
 import './Navbar.css';
 import Indeed from './Icons/indeed.svg';
@@ -77,6 +74,5 @@ const Navbar = () => {
       </Flex>
     </Box>
   );
-
-
+}
 export default Navbar;
