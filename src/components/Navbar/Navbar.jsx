@@ -1,13 +1,8 @@
-import { Container } from '@chakra-ui/react';
-import React from 'react';
+import { Container } from "@chakra-ui/react";
+import React from "react";
 
 const Navbar = () => {
-    return (
-        <Container>
-            
-        </Container>
-        
-    );
+  return <Container></Container>;
 };
 
 export default Navbar;
