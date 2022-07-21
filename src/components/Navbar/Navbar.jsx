@@ -27,6 +27,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   const [profile, setProfile] = useState(false);
 
+
   const handleProfileClick = () => {
     setProfile(!profile);
   };

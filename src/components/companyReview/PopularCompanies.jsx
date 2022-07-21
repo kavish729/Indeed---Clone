@@ -7,10 +7,12 @@ import {
   Image,
   Link,
   SimpleGrid,
+  Text,
 } from "@chakra-ui/react";
 import React from "react";
 import { useSelector } from "react-redux";
 import {AiFillStar} from 'react-icons/ai';
+import{Link as RouterLink} from 'react-router-dom';
 
 const PopularCompanies = () => {
   const { data } = useSelector((state) => state.appReducer);
@@ -26,8 +28,10 @@ const PopularCompanies = () => {
       <SimpleGrid columns={["1", "1", "2", "3", "3", "3"]} gap='50px'>
         {data.map((company) => {
           return (
+            
+            <Link key={company.id} as={RouterLink} to={`/companies/${company.id}`}>
             <Flex
-              key={company.id}
+              
               direction="column"
               gap="10px"
               padding="0px 0px 30px 0px"
@@ -43,7 +47,7 @@ const PopularCompanies = () => {
                   p="5px"
                   boxSize="50px"
                   borderRadius="10px"
-                />
+                  />
                 <Box>
                   <Heading size="sm">{company.company}</Heading>
                   <Flex direction="row">
@@ -52,11 +56,12 @@ const PopularCompanies = () => {
                 </Box>
               </Flex>
               <Flex direction="row"  justifyContent='space-between'>
-                <Link>Salaries</Link>
-                <Link>Questions</Link>
-                <Link>Open jobs</Link>
+                <Text>Salaries</Text>
+                <Text>Questions</Text>
+                <Text>Open jobs</Text>
               </Flex>
             </Flex>
+                  </Link>
           );
         })}
       </SimpleGrid>
