@@ -8,6 +8,7 @@ import {
   Link,
   Text,
   useColorMode,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
@@ -100,6 +101,10 @@ const articleData = [
 
 export const ArticlesHelp = () => {
   const { colorMode } = useColorMode();
+  const [isSmallerThan530] = useMediaQuery("(max-width: 530px)");
+  const [isSmallerThan720] = useMediaQuery("(max-width: 720px)");
+
+  console.log(isSmallerThan530);
 
   return (
     <Box w="90%" m="auto">
@@ -109,24 +114,34 @@ export const ArticlesHelp = () => {
             key={data.id}
             h="176px"
             border="1px solid #68686841"
-            maxW="37rem"
+            maxW={isSmallerThan530 ? "37rem" : "37rem"}
             p="16px"
             rounded="5px"
             display="flex"
             alignItems="center"
           >
             <Flex>
-              <Box m="11px 5px" w="150px" h="120px">
-                <Image
-                  h="120px"
-                  w="150px"
-                  src={data.articla_image}
-                  alt={data.articla_heading}
-                />
-              </Box>
+              {isSmallerThan530 ? (
+                ""
+              ) : (
+                <Box m="11px 5px" w="150px" h="120px">
+                  <Image
+                    h="120px"
+                    w="150px"
+                    src={data.articla_image}
+                    alt={data.articla_heading}
+                  />
+                </Box>
+              )}
               <Box>
                 <Flex
-                  w="421px"
+                  w={
+                    isSmallerThan530
+                      ? "85vw"
+                      : isSmallerThan720
+                      ? "50vw"
+                      : "421px"
+                  }
                   textAlign="left"
                   direction={"column"}
                   alignItems="left"

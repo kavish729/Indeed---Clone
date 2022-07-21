@@ -11,8 +11,8 @@ import {
   PopoverBody,
   Link,
   Icon,
-  useColorModeValue,
   useColorMode,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
@@ -61,11 +61,17 @@ const languages = [
 
 export const NavHelp = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const [isSmallerThan507] = useMediaQuery("(max-width: 507px)");
 
   return (
     <Box>
       <Flex direction="row" justifyContent="space-between" h="42px">
-        <Flex direction="row" alignItems="center" gap="16px">
+        <Flex
+          display={isSmallerThan507 ? "inline-block" : "flex"}
+          direction="row"
+          alignItems="center"
+          gap="16px"
+        >
           <Image
             src="https://theme.zdassets.com/theme_assets/499832/0671704df754683d3a836feff8546bb108cc1f1b.svg"
             w="127.5"

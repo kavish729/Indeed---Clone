@@ -3,6 +3,7 @@ import { Box, useColorMode } from "@chakra-ui/react";
 import { NavHelp } from "../components/HelpCenter/NavHelp";
 import { SearchHelp } from "../components/HelpCenter/SearchHelp";
 import { ArticlesHelp } from "../components/HelpCenter/ArticlesHelp";
+import { FooterHelp } from "../components/HelpCenter/FooterHelp";
 
 export const HelpCenter = () => {
   const { colorMode } = useColorMode();
@@ -15,6 +16,7 @@ export const HelpCenter = () => {
       </Box>
       <Box bg={colorMode === "light" ? "ffffff" : "#040606"}>
         <ArticlesHelp />
+        <FooterHelp />
       </Box>
     </Box>
   );
