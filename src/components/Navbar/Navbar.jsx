@@ -147,11 +147,17 @@ const Navbar = () => {
 
               <Box
                 className="slideCorner"
-                style={{ opacity: profile ? 1 : 0 }}
+                style={{
+                  opacity: profile ? 1 : 0,
+                  pointerEvents: profile ? "all" : "none",
+                }}
               ></Box>
               <Box
                 className="profileSlide"
-                style={{ opacity: profile ? 1 : 0 }}
+                style={{
+                  opacity: profile ? 1 : 0,
+                  pointerEvents: profile ? "all": "none",
+                }}
               >
                 <List>
                   <NavLink to="/profile">
