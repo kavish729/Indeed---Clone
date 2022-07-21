@@ -6,12 +6,12 @@ const Seachbar = () => {
   return (
     <Box>
         <Flex marginLeft='15rem' >
-            <Flex borderRadius='5%' marginLeft='1rem' marginRight='1rem' border='1px solid black'>
+            <Flex borderRadius='10%' marginLeft='1rem' marginRight='1rem' border='1px solid blue'>
                 <Text   marginTop='.5em'>What</Text>
                 <Input w='20em' border='null'  placeholder='job titles, keyword or compnay'/>
                 <SearchIcon marginTop='.8em' color='black'/>
             </Flex>
-            <Flex border='1px solid black' borderRadius='5%'>
+            <Flex border='1px solid blue' borderRadius='5%'>
                 <Text marginTop='.5em'>Where</Text>
                 <Input w='20em' border='null'  placeholder='City state or pincode'/>
                 <SearchIcon marginTop='.8em' color='black'/>
