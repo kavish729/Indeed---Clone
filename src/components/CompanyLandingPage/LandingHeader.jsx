@@ -11,16 +11,15 @@ import {
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
 import { useSelector } from "react-redux";
-import { Link, Outlet } from "react-router-dom";
 
 const LandingHeader = ({ id }) => {
   const { data } = useSelector((state) => state.appReducer);
   const company = data.find((company) => company.id == id);
   return (
     <Container maxW="100%">
-      <Image src="https://networkbuilders.intel.com/images/nb/Tech_mahindra_banner.png" />
-      <Box display={["block", "block", "flex", "flex", "flex"]}>
-        <Box>
+      <Image maxW='100%'  src="https://networkbuilders.intel.com/images/nb/Tech_mahindra_banner.png" />
+      <Box marginTop='30px' display={["block", "block", "block", "flex", "flex"]}>
+        <Box >
           <Flex direction="row">
             <Image
               src={company.logo}
@@ -46,15 +45,25 @@ const LandingHeader = ({ id }) => {
           </Flex>
         </Box>
         <Spacer />
-        <Box>
-          <Button bg="brandColor" color="white">
+        <Flex  >
+          <Button margin='10px'padding=' 10px 50px 10px 50px' width='50%' bg="brandColor" color="white">
             Follow
           </Button>
-          <Button variant="outline" color="brandColor">
+          <Button  width='50%'margin='10px' padding=' 10px 50px 10px 50px' variant="outline" color="brandColor">
             Write a review
           </Button>
-        </Box>
+        </Flex>
       </Box>
+      {/* <HStack  marginTop='30px' maxW='100%' overflow='scroll'   justifyContent='space-between' >
+                    <Link width='50px' to={`/companies/${id}/shapshot`}   ><Box padding='5px' maxW='100px'>Snapshot   </Box></Link>
+                    <Link width='50px' to={`/companies/${id}/whyus`}      ><Box padding='5px' maxW='100px'>Why Join Us</Box></Link>
+                    <Link width='50px' to={`/companies/${id}/reviews`}    ><Box padding='5px' maxW='100px'>Reviews    </Box></Link>
+                    <Link width='50px' to={`/companies/${id}/salaries`}   ><Box padding='5px' maxW='100px'>Salaries   </Box></Link>
+                    <Link width='50px' to={`/companies/${id}/jobs`}       ><Box padding='5px' maxW='100px'>Jobs       </Box></Link>
+                    <Link width='50px' to={`/companies/${id}/questions`}  ><Box padding='5px' maxW='100px'>Questions  </Box></Link>
+                    <Link width='50px' to={`/companies/${id}/interviews`} ><Box padding='5px' maxW='100px'>Interviews </Box></Link>
+                    <Link width='50px' to={`/companies/${id}/photos`}     ><Box padding='5px' maxW='100px'>Photos     </Box></Link>
+    </HStack> */}
     </Container>
   );
 };
