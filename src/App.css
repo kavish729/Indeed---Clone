@@ -71,3 +71,28 @@ input:focus {
  border-left:none;
  border-bottom: none;
 }
+.salinddiv{
+   margin-top:30px;
+
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
+   gap:15px;
+}
+.salinddiv>div{
+  padding:15px;
+  cursor:pointer;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.salinddiv>div>h2{
+  text-decoration: underline;
+}
+.salinddiv>div>h2:hover{
+  text-decoration:none
+}
+.salinddiv>div>div{
+  text-decoration:underline
+}
+.salinddiv>div>div:hover{
+  text-decoration:none
+}
