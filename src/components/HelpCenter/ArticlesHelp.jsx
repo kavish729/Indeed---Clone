@@ -102,18 +102,18 @@ export const ArticlesHelp = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <Box w="100%">
-      <Box>
+    <Box w="90%" m="auto">
+      <Flex pt="76px" flexWrap="wrap" justifyContent="center" gap="25px">
         {articleData.map((data) => (
           <Box
             key={data.id}
             h="176px"
             border="1px solid #68686841"
-            maxWidth="40rem"
+            maxW="37rem"
             p="16px"
-            m="10px auto"
             rounded="5px"
-            // flex="1 1 30rem"
+            display="flex"
+            alignItems="center"
           >
             <Flex>
               <Box m="11px 5px" w="150px" h="120px">
@@ -124,54 +124,60 @@ export const ArticlesHelp = () => {
                   alt={data.articla_heading}
                 />
               </Box>
-              <Flex
-                w="100%"
-                textAlign="left"
-                direction={"column"}
-                alignItems="left"
-                gap="10px"
-              >
-                <Heading
-                  fontSize="24px"
-                  color={colorMode === "light" ? "#2d2d2d" : "#fff"}
+              <Box>
+                <Flex
+                  w="421px"
+                  textAlign="left"
+                  direction={"column"}
+                  alignItems="left"
+                  gap="10px"
                 >
-                  <Link>{data.articla_heading}</Link>
-                </Heading>
-                <Text
-                  _hover={{ color: "#949494" }}
-                  fontSize="16px"
-                  color={colorMode === "light" ? "#595959" : "#fff"}
-                >
-                  <Link textDecoration="underline">{data.articla_query1}</Link>
-                </Text>
-                <Text
-                  _hover={{ color: "#949494" }}
-                  fontSize="16px"
-                  color={colorMode === "light" ? "#595959" : "#fff"}
-                >
-                  <Link textDecoration="underline">{data.articla_query2}</Link>
-                </Text>
-                <Text
-                  as="b"
-                  color="#6792f0"
-                  _hover={{ color: "#3f73d3" }}
-                  fontSize="17px"
-                >
-                  <Link display="flex" gap="10px">
-                    {data.more_articla_query}
-                    <Image
-                      src={
-                        "https://theme.zdassets.com/theme_assets/499832/83551c87a7e3e299f7b1eed4fd613526749d9e43.svg"
-                      }
-                      alt=""
-                    />
-                  </Link>
-                </Text>
-              </Flex>
+                  <Heading
+                    fontSize="24px"
+                    color={colorMode === "light" ? "#2d2d2d" : "#fff"}
+                  >
+                    <Link>{data.articla_heading}</Link>
+                  </Heading>
+                  <Text
+                    _hover={{ color: "#949494" }}
+                    fontSize="16px"
+                    color={colorMode === "light" ? "#595959" : "#fff"}
+                  >
+                    <Link textDecoration="underline">
+                      {data.articla_query1}
+                    </Link>
+                  </Text>
+                  <Text
+                    _hover={{ color: "#949494" }}
+                    fontSize="16px"
+                    color={colorMode === "light" ? "#595959" : "#fff"}
+                  >
+                    <Link textDecoration="underline">
+                      {data.articla_query2}
+                    </Link>
+                  </Text>
+                  <Text
+                    as="b"
+                    color="#6792f0"
+                    _hover={{ color: "#3f73d3" }}
+                    fontSize="17px"
+                  >
+                    <Link display="flex" gap="10px">
+                      {data.more_articla_query}
+                      <Image
+                        src={
+                          "https://theme.zdassets.com/theme_assets/499832/83551c87a7e3e299f7b1eed4fd613526749d9e43.svg"
+                        }
+                        alt=""
+                      />
+                    </Link>
+                  </Text>
+                </Flex>
+              </Box>
             </Flex>
           </Box>
         ))}
-      </Box>
+      </Flex>
     </Box>
   );
 };
