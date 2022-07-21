@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { Container } from '@chakra-ui/react';
 import Header from '../components/companyReview/Header';

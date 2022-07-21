@@ -14,7 +14,7 @@ const MainRoutes = () => {
       
        <Route path="/salaryguide" element={<SalaryGuide/>} />
 
-        <Route path="/" element={<HelpCenter />} />
+        <Route path="/helpcenter" element={<HelpCenter />} />
         <Route path="/companyreview" element={<CompanyReview />} />
        
 
