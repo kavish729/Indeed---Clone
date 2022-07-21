@@ -73,7 +73,7 @@ input:focus {
 }
 .salinddiv{
    margin-top:30px;
-
+   margin-bottom:30px;
    display:grid;
    grid-template-columns: repeat(4,1fr);
    gap:15px;
@@ -95,4 +95,32 @@ input:focus {
 }
 .salinddiv>div>div:hover{
   text-decoration:none
+}
+
+.sacompddiv{
+  margin-top:30px;
+  margin-bottom:30px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:15px;
+ 
+}
+.sacompddiv>div{
+  padding:20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+.sacompddiv>div:hover{
+  text-decoration:none
+}
+.sacompddiv>div>div>p{
+  font-weight: 700;
+}
+.sacompddiv>div p{
+  text-decoration:underline ;
+}
+.sacompddiv>div p:hover{
+  text-decoration:none;
+  color:#6f6f6f
 }
