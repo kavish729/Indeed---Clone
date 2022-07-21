@@ -12,7 +12,6 @@ const initState={
 }
 
 export const appReducer=(state=initState,{type,payload})=>{
-
     switch(type){
     case GET_COMPANY_REQUESET:return{...state,isLoading:true,isError:false}
     case GET_COMPANY_SUCCESS :return{...state,isLoading:false,isError:false,data:payload}
