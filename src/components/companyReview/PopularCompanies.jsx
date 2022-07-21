@@ -1,22 +1,19 @@
 import {
   Box,
   Container,
-  Divider,
-  Flex,
   Heading,
   HStack,
-  Icon,
+  Flex,
   Image,
   Link,
   SimpleGrid,
-  Spacer,
 } from "@chakra-ui/react";
 import React from "react";
 import { useSelector } from "react-redux";
 import {AiFillStar} from 'react-icons/ai';
 
 const PopularCompanies = () => {
-  const { data, loading, error } = useSelector((state) => state.appReducer);
+  const { data } = useSelector((state) => state.appReducer);
   return (
     <Container
       maxW="100%"
@@ -51,7 +48,7 @@ const PopularCompanies = () => {
                   <Heading size="sm">{company.company}</Heading>
                   <Flex direction="row">
                     <HStack color='indigo'><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/></HStack>
-                     <Box> {company.reviews} reviews</Box></Flex>
+                    <Box> {company.reviews} reviews</Box></Flex>
                 </Box>
               </Flex>
               <Flex direction="row"  justifyContent='space-between'>
