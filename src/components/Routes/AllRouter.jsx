@@ -1,19 +1,19 @@
 import React from 'react'
 import {Routes,Route} from "react-router-dom"
-import CompanyReview from '../../Pages/CompanyReview'
-import FindJobs from '../../Pages/FindJobs'
-import Profile from '../../Pages/Profile'
-import SalaryGuide from '../../Pages/SalaryGuide'
+import CompanyReview from '../../pages/CompanyReview'
+import Findjobs from '../../pages/Findjobs'
+import Profile from '../../pages/Profile'
+import SalaryGuide from '../../pages/SalaryGuide'
 import Signin from '../SignIn/Signin'
 import Signup from '../Sign_up/Signup'
-import Message from "../../Pages/Message"
-import Notification from "../../Pages/Notification"
-import { HelpCenter } from '../../Pages/HelpCenter'
-import EmployersPostJob from '../../Pages/EmployersPostJob'
+import Message from "../../pages/Message"
+import Notification from "../../pages/Notification"
+import { HelpCenter } from '../../pages/HelpCenter'
+import EmployersPostJob from '../../pages/EmployersPostJob'
 const AllRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<FindJobs />} />
+      <Route path="/" element={<Findjobs />} />
       <Route path="/companies" element={<CompanyReview />} />
       <Route path="/salary" element={<SalaryGuide />} />
       <Route path="/profile" element={<Profile />} />
