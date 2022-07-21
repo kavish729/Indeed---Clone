@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Input, useColorMode } from "@chakra-ui/react";
+import { Button, Flex, Input, useColorMode } from "@chakra-ui/react";
 
 export const SearchHelp = () => {
   const { colorMode } = useColorMode();
