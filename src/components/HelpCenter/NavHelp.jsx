@@ -1,3 +1,4 @@
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import {
   Box,
   Image,
@@ -10,7 +11,8 @@ import {
   PopoverBody,
   Link,
   Icon,
-  useTheme,
+  useColorModeValue,
+  useColorMode,
 } from "@chakra-ui/react";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
@@ -58,9 +60,7 @@ const languages = [
 ];
 
 export const NavHelp = () => {
-  const theme = useTheme();
-
-  console.log(theme);
+  const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <Box>
@@ -71,7 +71,12 @@ export const NavHelp = () => {
             w="127.5"
             h="34"
           />
-          <Text fontSize="1.25rem" as="b" color="#2d2d2d" mt="15px">
+          <Text
+            fontSize="1.25rem"
+            as="b"
+            color={colorMode === "light" ? "#2d2d2d" : "#f3f2f1"}
+            mt="15px"
+          >
             Help Centre
           </Text>
         </Flex>
@@ -79,7 +84,13 @@ export const NavHelp = () => {
           {/* select languages part */}
           <Popover isLazy>
             <PopoverTrigger>
-              <Button color="#2557a7" fontWeight="600" bg="transparent">
+              <Button
+                color={colorMode === "light" ? "#2557a7" : "#386fc7"}
+                _hover={false}
+                _active={false}
+                fontWeight="600"
+                bg="transparent"
+              >
                 English {"(IN)"}{" "}
                 <Icon ml="7px" fontSize="1.2rem" as={IoIosArrowDown} />
               </Button>
@@ -88,11 +99,11 @@ export const NavHelp = () => {
               overflowX="hidden"
               overflowY="scroll"
               w="260px"
-              color="#424242"
+              color={colorMode === "light" ? "#424242" : "#fff"}
               rounded="5px"
               h="500px"
               textAlign="left"
-              bg="white"
+              bg={colorMode === "light" ? "#fff" : "#000000"}
               fontSize="18px"
               fontWeight="400"
               p="0px 0px 0px 30px"
@@ -111,6 +122,18 @@ export const NavHelp = () => {
             </PopoverContent>
           </Popover>
           {/* dark and ligght part  */}
+          <Button
+            onClick={toggleColorMode}
+            bg="transparent"
+            _active="false"
+            _hover="false"
+          >
+            {colorMode === "light" ? (
+              <SunIcon color="#457cd5" />
+            ) : (
+              <MoonIcon color="#9d9d9d" />
+            )}
+          </Button>
         </Box>
       </Flex>
     </Box>
