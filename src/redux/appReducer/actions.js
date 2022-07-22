@@ -5,6 +5,9 @@ import {
   GET_JOBS_REQUESET,
   GET_JOBS_SUCCESS,
   GET_JOBS_FAILURE,
+  GET_SINGLE_JOBS_REQUESET,
+  GET_SINGLE_JOBS_SUCCESS,
+  GET_SINGLE_JOBS_FAILURE,
 } from "./actionType";
 import axios from 'axios';
 
@@ -30,5 +33,17 @@ export const getJobs = () => (dispatch) => {
     })
 .catch((error) => {
     dispatch({type:GET_JOBS_FAILURE});
+});
+};
+
+export const getSingleJobs = (id) => (dispatch) => {
+  dispatch({type:GET_SINGLE_JOBS_REQUESET});
+  axios.get(`http://localhost:8080/jobs/${id}`)
+  .then((response) => {
+      console.log(response.data);
+      dispatch({type:GET_SINGLE_JOBS_SUCCESS,payload:response.data});
+    })
+.catch((error) => {
+    dispatch({type:GET_SINGLE_JOBS_FAILURE});
 });
 };
