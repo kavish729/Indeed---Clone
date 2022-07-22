@@ -10,7 +10,6 @@ import Message from "../../pages/Message";
 import Notification from "../../pages/Notification";
 import { HelpCenter } from "../../pages/HelpCenter";
 import EmployersPostJob from "../../pages/EmployersPostJob";
-<<<<<<< Updated upstream
 import EmployerQuestions from "../../pages/EmployerQuestions";
 import CompanyLandingPage from "../../pages/CompanyLandingPage";
 import Snapshot from "../CompanyLandingPage/Tabs/Snapshot";
@@ -21,8 +20,6 @@ import Questions from "../CompanyLandingPage/Tabs/Questions";
 import Interviews from "../CompanyLandingPage/Tabs/Interviews";
 import Photos from "../CompanyLandingPage/Tabs/Photos";
 import Salaries from "../CompanyLandingPage/Tabs/Salaries";
-=======
->>>>>>> Stashed changes
 const AllRouter = () => {
   return (
     <Routes>
