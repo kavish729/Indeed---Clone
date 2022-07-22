@@ -24,7 +24,7 @@ const login = (params) => (dispatch) => {
   return axios
     .post('https://authentication-aru.herokuapp.com/login', params)
     .then((r) => {
-      dispatch({ type: types.LOGIN_SUCCESS, payload: r.token });
+      dispatch({ type: types.LOGIN_SUCCESS, payload: r.data });
       return types.LOGIN_SUCCESS;
     })
     .catch((err) => {
