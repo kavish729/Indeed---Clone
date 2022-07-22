@@ -7,6 +7,7 @@ export const theme=extendTheme({
         error:"#FFC107",
         warning:"#FF9800",
         ratecompany:"#f5fbf9",
+        starColor:"#aa0087"
         
     },
 })

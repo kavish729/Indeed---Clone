@@ -6,23 +6,26 @@ import {
   Heading,
   Image,
   SimpleGrid,
+  Link,
   Text,
 } from "@chakra-ui/react";
 import React from "react";
+import{Link as RouteLink} from 'react-router-dom';
 import { AiFillStar } from "react-icons/ai";
 import { useSelector } from "react-redux";
+
 
 const CompareCompanies = () => {
   const { data } = useSelector((state) => state.appReducer);
   return (
-    <Container maxW='100%'>
+    <Container maxW='100%' >
       <Heading size="md" marginBottom="20px">
         Compare working at
       </Heading>
       <SimpleGrid columns={["1", "1", "1", "2", "2"]} gap="10px">
         {data.map((company) => {
           return (
-            <Flex
+          <Link as={RouteLink} to='/comparecompanies' key={company.id}> <Flex
               key={company.id}
               justifyContent="space-evenly"
               padding="20px"
@@ -79,7 +82,7 @@ const CompareCompanies = () => {
                   <Text>{company.reviews} reviews</Text>
                 </Box>
               </Box>
-            </Flex>
+            </Flex></Link>
           );
         })}
       </SimpleGrid>

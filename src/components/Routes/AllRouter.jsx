@@ -20,6 +20,7 @@ import Questions from '../CompanyLandingPage/Tabs/Questions'
 import Interviews from '../CompanyLandingPage/Tabs/Interviews'
 import Photos from '../CompanyLandingPage/Tabs/Photos'
 import Salaries from '../CompanyLandingPage/Tabs/Salaries'
+import CompareCompanies from '../../pages/CompareCompanies'
 const AllRouter = () => {
   return (
     <Routes>
@@ -34,6 +35,7 @@ const AllRouter = () => {
       <Route path="/postjobs" element={<EmployersPostJob />} />
       <Route path="/help" element={<HelpCenter />} />
       <Route path='/employerquestions' element={<EmployerQuestions/>}/>
+      <Route path='/comparecompanies' element={<CompareCompanies/>}/>
       <Route path='/companies/:id' element={<CompanyLandingPage/>} >  
              <Route path="shapshot" element={<Snapshot />} />
              <Route path="whyus" element={<WhyUS />} />
