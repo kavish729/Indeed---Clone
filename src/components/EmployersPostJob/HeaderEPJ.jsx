@@ -1,4 +1,4 @@
-import { Box, Flex, Icon, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 import React from "react";
 import { IoIosHelpCircle } from "react-icons/io";
 
