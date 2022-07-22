@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Button,
   Flex,
@@ -12,10 +12,61 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
+  useToast,
+  Text,
+  Link,
 } from '@chakra-ui/react';
 import Indeed from './Icons/indeed.svg';
 import './Signin.css';
+import { useDispatch, useSelector } from 'react-redux';
+import { login } from '../../redux/authReducer/actions';
+import { LOGIN_SUCCESS } from '../../redux/authReducer/actionType';
+import {useNavigate} from "react-router-dom"
+import {Link as SignupLink} from "react-router-dom";
 const SignIn = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const dispatch = useDispatch()
+  const navigate=useNavigate()
+  const toast = useToast();
+  const Loading=useSelector((state)=>state.AuthReducer.Loading)
+  
+  const loginHandler = () => {
+    if (
+      email === '' ||
+     password === ''
+    ) {
+      toast({
+        title: 'Login Failed.',
+        description: 'Enter valid email and password',
+        status: 'error',
+        duration: 9000,
+        isClosable: true,
+        position: 'top',
+      });
+    }
+    if(email &&password){
+      const params ={
+        email,password
+      }
+      dispatch(login(params)).then((r)=>{
+        if(r===LOGIN_SUCCESS){
+           toast({
+             title: 'Login Successful 🥳',
+             description: "Enjoy your job search 👍",
+             status: 'success',
+             duration: 9000,
+             isClosable: true,
+             position: 'top',
+           });
+          navigate("/",{replace:true})
+        }
+        else{
+          console.log("error")
+        }
+      })
+    }
+  };
   {
     return (
       <Box className="signup">
@@ -32,17 +83,37 @@ const SignIn = () => {
               <Heading fontSize={'2xl'}>Create a new account</Heading>
               <FormControl id="email" isRequired>
                 <FormLabel>Email address</FormLabel>
-                <Input type="email" />
+                <Input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </FormControl>
               <FormControl id="password" isRequired>
                 <FormLabel>Password</FormLabel>
-                <Input type="password" />
+                <Input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
               </FormControl>
               <Stack>
-                <Button marginTop="20px" colorScheme={'blue'} variant={'solid'}>
+                <Button
+                  marginTop="20px"
+                  colorScheme={'blue'}
+                  variant={'solid'}
+                  onClick={loginHandler}
+                >
                   Sign in
                 </Button>
               </Stack>
+              <Text paddingTop="50px" paddingBottom="20px" fontSize={'lg'} color={'gray.600'}>
+                Ready to take the next step?
+                <br />
+                <SignupLink to="/signup">
+                  <Link color="blue.500">Create an account ✌️</Link>
+                </SignupLink>
+              </Text>
             </Stack>
           </Flex>
         </Stack>
