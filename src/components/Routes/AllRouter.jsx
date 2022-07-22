@@ -71,7 +71,7 @@ const AllRouter = () => {
              <Route path="interviews" element={<Interviews />} />
              <Route path="photos" element={<Photos />} />
 
-     
+     </Route>
     </Routes>
   );
 };

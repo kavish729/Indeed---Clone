@@ -33,4 +33,7 @@ const login = (params) => (dispatch) => {
     });
 };
 
-export { register, login };
+const logout=()=>(dispatch)=>{
+dispatch({ type: types.LOGOUT_REQUEST });
+}
+export { register, login, logout };

@@ -34,8 +34,7 @@ const reducer = (state = initState, action) => {
         isLoading: true,
       };
     case types.LOGIN_SUCCESS:
-        
-        saveLocalData("token",JSON.stringify(payload))
+      saveLocalData('token', JSON.stringify(payload));
       return {
         ...state,
         isLoading: false,
@@ -50,6 +49,15 @@ const reducer = (state = initState, action) => {
         isAuth: false,
         token: '',
       };
+    case types.LOGOUT_REQUEST:
+      return {
+        ...state,
+        isLoading: false,
+        isError: false,
+        isAuth: false,
+        token: '',
+      };
+
     default:
       return state;
   }
