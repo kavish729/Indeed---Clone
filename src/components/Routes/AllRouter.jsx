@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {Routes,Route} from "react-router-dom"
 import CompanyReview from '../../pages/CompanyReview'
@@ -21,6 +22,9 @@ import Interviews from '../CompanyLandingPage/Tabs/Interviews'
 import Photos from '../CompanyLandingPage/Tabs/Photos'
 import Salaries from '../CompanyLandingPage/Tabs/Salaries'
 import ReqAuth from '../ReqAuth/ReqAuth'
+import CompareCompanies from '../../pages/CompareCompanies'
+
+
 const AllRouter = () => {
   return (
     <Routes>
@@ -55,19 +59,21 @@ const AllRouter = () => {
       />
       <Route path="/postjobs" element={<EmployersPostJob />} />
       <Route path="/help" element={<HelpCenter />} />
-      <Route path="/employerquestions" element={<EmployerQuestions />} />
-      <Route path="/companies/:id" element={<CompanyLandingPage />}>
-        <Route path="shapshot" element={<Snapshot />} />
-        <Route path="whyus" element={<WhyUS />} />
-        <Route path="reviews" element={<Reviews />} />
-        <Route path="salaries" element={<Salaries />} />
-        <Route path="jobs" element={<Jobs />} />
-        <Route path="questions" element={<Questions />} />
-        <Route path="interviews" element={<Interviews />} />
-        <Route path="photos" element={<Photos />} />
-      </Route>
+      <Route path='/employerquestions' element={<EmployerQuestions/>}/>
+      <Route path='/comparecompanies' element={<CompareCompanies/>}/>
+      <Route path='/companies/:id' element={<CompanyLandingPage/>} >  
+             <Route path="shapshot" element={<Snapshot />} />
+             <Route path="whyus" element={<WhyUS />} />
+             <Route path="reviews" element={<Reviews />} />
+             <Route path="salaries" element={<Salaries />} />
+             <Route path="jobs" element={<Jobs />} />
+             <Route path="questions" element={<Questions />} />
+             <Route path="interviews" element={<Interviews />} />
+             <Route path="photos" element={<Photos />} />
+
+     
     </Routes>
   );
-}
+};
 
-export default AllRouter
+export default AllRouter;

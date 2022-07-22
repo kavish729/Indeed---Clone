@@ -25,7 +25,7 @@ const CompanyLandingPage = () => {
       <LandingHeader id={id} />
 
       <Tabs>
-        <TabList isFitted overflow="scroll" position="sticky">
+        <TabList isFitted overflow="auto" position="sticky">
           <Tab>Snapshot</Tab>
           <Tab>Why_Join_Us</Tab>
           <Tab>Reviews</Tab>
