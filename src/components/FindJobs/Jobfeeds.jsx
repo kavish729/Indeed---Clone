@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getJobs } from '../../redux/appReducer/actions';
-import { Box,Flex,Text, Icon } from '@chakra-ui/react';
+import { Box,Flex,Text, Icon, Center } from '@chakra-ui/react';
 import { MdMoney ,MdOutlineAllInbox} from 'react-icons/md'
+import Parser from 'html-react-parser'
+
 
 const Jobfeeds = () => {
   const dispatch=useDispatch();
   const jobs=useSelector(state=>state.appReducer.jobs);
-  console.log(jobs);
-
 
   useEffect(()=>{
     dispatch(getJobs())
@@ -24,12 +24,11 @@ const Jobfeeds = () => {
     <Text fontWeight='500' fontSize='lg'>{item.companyName}</Text>
     <Text fontWeight='400' fontSize='lg'>{item.location}</Text>
     <Flex > 
-      <Flex bg='#a9acad'  fontWeight='bold' color='black'><Icon margin='.1rem .1rem .1rem .1rem'  marginTop='.2em' as={MdMoney}/><Box marginLeft='.2rem' >{item.startSalary}</Box></Flex>
+      <Flex bg='#a9acad'  fontWeight='bold' color='black'><Icon margin='.1rem .1rem .1rem .1rem'  marginTop='.2em' as={MdMoney}/><Box marginLeft='.2rem' >₹{item.startSalary}- ₹{item.endSalary}</Box></Flex>
       <Flex marginLeft='1rem' bg='#a9acad'  fontWeight='bold' color='black'><Icon margin='.1rem .1rem .1rem .1rem'  marginTop='.2em' as={MdOutlineAllInbox}/><Box marginLeft='.2rem' >{item.jobType}</Box></Flex>
-      
     </Flex>
+    <Box margin='1rem 1rem 1rem 1rem'>{Parser(item.jobDescription)}</Box>
     
-      {item.jobDescription}
       </Box>
     </Box>
     )})}
