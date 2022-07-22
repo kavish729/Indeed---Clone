@@ -1,10 +1,12 @@
 import React from 'react';
+import { Container } from "@chakra-ui/react";
 
 const Snapshot_reviews = () => {
     return (
-        <div>
+        <Container maxW='100%'>
             
-        </div>
+            
+        </Container>
     );
 };
 

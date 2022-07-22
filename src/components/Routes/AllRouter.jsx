@@ -1,25 +1,28 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import CompanyReview from "../../pages/CompanyReview";
-import Findjobs from "../../pages/Findjobs";
-import Profile from "../../pages/Profile";
-import SalaryGuide from "../../pages/SalaryGuide";
-import Signin from "../SignIn/Signin";
-import Signup from "../Sign_up/Signup";
-import Message from "../../pages/Message";
-import Notification from "../../pages/Notification";
-import { HelpCenter } from "../../pages/HelpCenter";
-import EmployersPostJob from "../../pages/EmployersPostJob";
-import EmployerQuestions from "../../pages/EmployerQuestions";
-import CompanyLandingPage from "../../pages/CompanyLandingPage";
-import Snapshot from "../CompanyLandingPage/Tabs/Snapshot";
-import WhyUS from "../CompanyLandingPage/Tabs/WhyUS";
-import Reviews from "../CompanyLandingPage/Tabs/Reviews";
-import Jobs from "../CompanyLandingPage/Tabs/Jobs";
-import Questions from "../CompanyLandingPage/Tabs/Questions";
-import Interviews from "../CompanyLandingPage/Tabs/Interviews";
-import Photos from "../CompanyLandingPage/Tabs/Photos";
-import Salaries from "../CompanyLandingPage/Tabs/Salaries";
+
+import React from 'react'
+import {Routes,Route} from "react-router-dom"
+import CompanyReview from '../../pages/CompanyReview'
+import Findjobs from '../../pages/Findjobs'
+import Profile from '../../pages/Profile'
+import SalaryGuide from '../../pages/SalaryGuide'
+import Signin from '../SignIn/Signin'
+import Signup from '../Sign_up/Signup'
+import Message from "../../pages/Message"
+import Notification from "../../pages/Notification"
+import { HelpCenter } from '../../pages/HelpCenter'
+import EmployersPostJob from '../../pages/EmployersPostJob'
+import EmployerQuestions from '../../pages/EmployerQuestions'
+import CompanyLandingPage from '../../pages/CompanyLandingPage'
+import Snapshot from '../CompanyLandingPage/Tabs/Snapshot'
+import WhyUS from '../CompanyLandingPage/Tabs/WhyUS'
+import Reviews from '../CompanyLandingPage/Tabs/Reviews'
+import Jobs from '../CompanyLandingPage/Tabs/Jobs'
+import Questions from '../CompanyLandingPage/Tabs/Questions'
+import Interviews from '../CompanyLandingPage/Tabs/Interviews'
+import Photos from '../CompanyLandingPage/Tabs/Photos'
+import Salaries from '../CompanyLandingPage/Tabs/Salaries'
+import CompareCompanies from '../../pages/CompareCompanies'
+
 const AllRouter = () => {
   return (
     <Routes>
@@ -33,16 +36,19 @@ const AllRouter = () => {
       <Route path="/notification" element={<Notification />} />
       <Route path="/postjobs" element={<EmployersPostJob />} />
       <Route path="/help" element={<HelpCenter />} />
-      <Route path="/employerquestions" element={<EmployerQuestions />} />
-      <Route path="/companies/:id" element={<CompanyLandingPage />}>
-        <Route path="shapshot" element={<Snapshot />} />
-        <Route path="whyus" element={<WhyUS />} />
-        <Route path="reviews" element={<Reviews />} />
-        <Route path="salaries" element={<Salaries />} />
-        <Route path="jobs" element={<Jobs />} />
-        <Route path="questions" element={<Questions />} />
-        <Route path="interviews" element={<Interviews />} />
-        <Route path="photos" element={<Photos />} />
+
+      <Route path='/employerquestions' element={<EmployerQuestions/>}/>
+      <Route path='/comparecompanies' element={<CompareCompanies/>}/>
+      <Route path='/companies/:id' element={<CompanyLandingPage/>} >  
+             <Route path="shapshot" element={<Snapshot />} />
+             <Route path="whyus" element={<WhyUS />} />
+             <Route path="reviews" element={<Reviews />} />
+             <Route path="salaries" element={<Salaries />} />
+             <Route path="jobs" element={<Jobs />} />
+             <Route path="questions" element={<Questions />} />
+             <Route path="interviews" element={<Interviews />} />
+             <Route path="photos" element={<Photos />} />
+
       </Route>
     </Routes>
   );
