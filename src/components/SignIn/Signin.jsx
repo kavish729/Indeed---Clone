@@ -40,7 +40,7 @@ const SignIn = () => {
         title: 'Login Failed.',
         description: 'Enter valid email and password',
         status: 'error',
-        duration: 9000,
+        duration: 3000,
         isClosable: true,
         position: 'top',
       });
@@ -55,7 +55,7 @@ const SignIn = () => {
              title: 'Login Successful 🥳',
              description: "Enjoy your job search 👍",
              status: 'success',
-             duration: 9000,
+             duration: 3000,
              isClosable: true,
              position: 'top',
            });
@@ -107,12 +107,18 @@ const SignIn = () => {
                   Sign in
                 </Button>
               </Stack>
-              <Text paddingTop="50px" paddingBottom="20px" fontSize={'lg'} color={'gray.600'}>
+              <Text
+                paddingTop="50px"
+                paddingBottom="20px"
+                fontSize={'lg'}
+                color={'gray.600'}
+              >
                 Ready to take the next step?
                 <br />
                 <SignupLink to="/signup">
-                  <Link color="blue.500">Create an account ✌️</Link>
+                  <Link color="blue.500">Create an account</Link>
                 </SignupLink>
+                ✌️
               </Text>
             </Stack>
           </Flex>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../App.css";
 import Byindustry from "../components/salaryguide/Byindustry";
 import Bycompany from "../components/salaryguide/Bycompany";
+import Salaryearning from "../components/salaryguide/Salaryearning";
+import Secfooter from "../components/salaryguide/Secfooter";
 const Industryarray = [
   { name: "Elementary School Teacher", salary: "2,47,310 per year" },
   { name: "Human Resources Specialist", salary: "2,15,486 per year" },
@@ -141,7 +143,7 @@ const SalaryGuide = () => {
           </div>
         </div>
         <img
-          style={{ height: "326px", width: "42%" }}
+          style={{ height: "326px", width: "41%" }}
           src="https://d3hbwax96mbv6t.cloudfront.net/title-webapp/_next/static/images/salaries-8d20dc14bdeae8889387e0fb40e0d546.png"
           alt=""
         />
@@ -218,7 +220,10 @@ const SalaryGuide = () => {
                     lineHeight: "0.5",
                   }}
                 >
-                  <img style={{ height: "60px" }} src={item.compimg} />
+                  <img
+                    style={{ height: "60px", borderRadius: "5px" }}
+                    src={item.compimg}
+                  />
                   <div style={{ marginTop: "10px" }}>
                     <p style={{ fontSize: "17px" }}>{item.name}</p>
                     <span style={{ marginLeft: "280px" }}>{">"}</span>
@@ -243,7 +248,13 @@ const SalaryGuide = () => {
             })}
           </div>
         </div>
+
         {/* ending Browse top paying companies by industry */}
+
+        <Salaryearning />
+      </div>
+      <div>
+        <Secfooter />
       </div>
     </>
   );

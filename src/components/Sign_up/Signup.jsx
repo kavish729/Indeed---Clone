@@ -13,6 +13,8 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   useToast,
+  Text,
+  Link,
 } from '@chakra-ui/react';
 import Indeed from './Icons/indeed.svg';
 import './Signup.css';
@@ -20,6 +22,7 @@ import {REGISTER_SUCCESS} from "../../redux/authReducer/actionType"
 import { useNavigate } from 'react-router-dom';
 import { register } from '../../redux/authReducer/actions';
 import {useDispatch} from "react-redux"
+import { Link as SignupLink } from 'react-router-dom';
 
 function reducer(state, action) {
   switch (action.type) {
@@ -70,7 +73,7 @@ const Signup = () => {
          title: 'Enter all the information.',
          description: 'Enter all the information for creating a new account.',
          status: 'error',
-         duration: 9000,
+         duration: 3000,
          isClosable: true,
          position: 'top',
        });
@@ -81,7 +84,7 @@ const Signup = () => {
           title: 'Account created.',
           description: "We've created your account for you.",
           status: 'success',
-          duration: 9000,
+          duration: 3000,
           isClosable: true,
           position: 'top',
         });
@@ -153,6 +156,19 @@ const Signup = () => {
                   Create Account
                 </Button>
               </Stack>
+              <Text
+                paddingTop="20px"
+                paddingBottom="20px"
+                fontSize={'lg'}
+                color={'gray.600'}
+              >
+                Already have an account?
+                <br />
+                <SignupLink to="/signin">
+                  <Link color="blue.500">Sign in</Link>
+                </SignupLink>
+                ✌️
+              </Text>
             </Stack>
           </Flex>
         </Stack>

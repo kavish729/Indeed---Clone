@@ -9,6 +9,7 @@ import {
   ListItem,
   Divider,
   Button,
+  useToast,
 } from '@chakra-ui/react';
 import './Navbar.css';
 import Indeed from './Icons/indeed.svg';
@@ -23,10 +24,26 @@ import HelpCenter from './Icons/helpCentre.svg';
 import EmailSettings from './Icons/emailSettings.svg';
 import UkrenSupport from './Icons/ukraine_support.png';
 import { NavLink } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { logout } from '../../redux/authReducer/actions';
 
 const Navbar = () => {
   const [profile, setProfile] = useState(false);
+  const dispatch = useDispatch();
+  const toast = useToast();
 
+  const logoutHandler = () => {
+    localStorage.removeItem('token');
+    dispatch(logout());
+    toast({
+      title: 'Log Out Successful 👋',
+      description: 'Visit again 🙏',
+      status: 'success',
+      duration: 3000,
+      isClosable: true,
+      position: 'top',
+    });
+  };
 
   const handleProfileClick = () => {
     setProfile(!profile);
@@ -131,9 +148,9 @@ const Navbar = () => {
                 value={profile}
                 onClick={handleProfileClick}
                 className="profile"
-                marginTop="11px"
+                marginTop="10px"
                 _hover={{
-                  marginTop: '11px',
+                  marginTop: '10px',
                   borderBottom: '2px solid #2f5eaa',
                   color: '#2f5eaa',
                 }}
@@ -150,14 +167,14 @@ const Navbar = () => {
                 className="slideCorner"
                 style={{
                   opacity: profile ? 1 : 0,
-                  pointerEvents: profile ? "all" : "none",
+                  pointerEvents: profile ? 'all' : 'none',
                 }}
               ></Box>
               <Box
                 className="profileSlide"
                 style={{
                   opacity: profile ? 1 : 0,
-                  pointerEvents: profile ? "all": "none",
+                  pointerEvents: profile ? 'all' : 'none',
                 }}
               >
                 <List>
@@ -237,13 +254,16 @@ const Navbar = () => {
                     </ListItem>
                   </NavLink>
                   <Divider />
-                  <Button
-                    className="signout-btn"
-                    colorScheme="#2558a8"
-                    variant="ghost"
-                  >
-                    Sign Out
-                  </Button>
+                  <Box onClick={handleProfileClick}>
+                    <Button
+                      className="signout-btn"
+                      colorScheme="#2558a8"
+                      variant="ghost"
+                      onClick={logoutHandler}
+                    >
+                      Sign Out
+                    </Button>
+                  </Box>
                 </List>
               </Box>
               <Tab
