@@ -3,12 +3,14 @@
 }
 
 .salfdiv{
+  font-family :"Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif;
   background: 
   #e8f3fc;
  padding-left:40px
 }
 .salmdiv{
   display:flex;
+  box-sizing: border-box;
 }
 .salfdiv>h1{
   text-align: left;
@@ -77,6 +79,7 @@ input:focus {
    display:grid;
    grid-template-columns: repeat(4,1fr);
    gap:15px;
+   width:97%;
 }
 .salinddiv>div{
   padding:15px;
@@ -103,6 +106,7 @@ input:focus {
   display:grid;
   grid-template-columns: repeat(3,1fr);
   gap:15px;
+  width:97%
  
 }
 .sacompddiv>div{
@@ -123,4 +127,108 @@ input:focus {
 .sacompddiv>div p:hover{
   text-decoration:none;
   color:#6f6f6f
+}
+.eardiv{
+  display:flex;
+  gap:80px;
+  margin-top:80px;
+  box-shadow: rgba(151, 150, 150, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  width:97%;
+  padding:5px 10px 30px 20px;
+  border-radius:10px;
+   margin-bottom:80px;
+}
+.eardiv>div{
+  margin-top:40px;
+  width:50%;
+}
+.eardiv>div button{
+  background: #085ff7;
+  color:white;
+  padding:10px ;
+  border-radius: 10px;
+  font-weight:600;
+}
+.eardiv>div button:hover{
+  background: rgb(1, 9, 116);
+}
+.eardiv>div>h2{
+  margin-bottom:15px;
+  font-size: 30px;
+  font-weight: 700;
+line-height:33.9px;
+letter-spacing:-0.12px;
+text-decoration:none solid rgb(45, 45, 45)
+}
+.eardiv>div>p{
+  margin-bottom:20px;
+  font-size:18px;
+line-height:24px;
+font-weight:400;
+color:
+#595959;
+text-decoration:none solid rgb(89, 89, 89)
+}
+
+.eardiv>div a{
+  text-decoration: underline;
+  margin-left:50px;
+  color:teal;
+  cursor: pointer;
+}
+/* .ii>img:hover{
+  background-color:green;
+  color:white
+} */
+.ii{
+  display:flex;
+  width:97%;
+  box-shadow: rgba(151, 150, 150, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  padding:30px 10px 30px 10px;
+  border-radius:10px;
+  gap:515px;
+  margin-bottom:40px;
+}
+.ii>div{
+display:flex;
+gap:30px
+}
+.ii>h2{
+  margin-bottom:15px;
+  font-size: 30px;
+  font-weight: 700;
+line-height:33.9px;
+letter-spacing:-0.12px;
+text-decoration:none solid rgb(45, 45, 45)
+}
+.secfooterdiv{
+  display:flex;
+  justify-content: space-between;
+  width:80%;
+  margin-left: 50px;
+ 
+}
+.secfooterdiv>div>ul>li{
+  list-style: none;
+  line-height:30px;
+  font-weight:400;
+font-size:15px;
+cursor:pointer;
+}
+.secfooterdiv>div>ul>li:hover{
+  text-decoration: underline;
+}
+.secfooterdiv>div>h2{
+  
+  font-size: 25px;
+  font-weight: 600;
+line-height:33.9px;
+letter-spacing:-0.12px;
+text-decoration:none solid rgb(45, 45, 45)
+}
+.mainsecfooterdiv{
+  background: #eff2f6;
+  padding-top:20px;
+  font-family:
+"Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif
 }
