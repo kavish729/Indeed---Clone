@@ -400,9 +400,12 @@ const FormEPI = () => {
             {/* end here */}
             {/* {isErrorCompanyName || isErrorFirstLastName ? <Box></Box> : ""} */}
             <Box>
-              <Button colorScheme="#2557a7" type="submit">
-                Save and continue
-              </Button>
+              <Input
+                type="submit"
+                value="Save and continue"
+                colorScheme="#2557a7"
+                w="200px"
+              />
             </Box>
           </Box>
           <Box></Box>
