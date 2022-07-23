@@ -7,8 +7,7 @@ import { MdMoney, MdOutlineAllInbox } from "react-icons/md";
 import Parser from "html-react-parser";
 
 const JobDetails = () => {
-  let id=localStorage.getItem("jobId2")
-  ;
+  let id = localStorage.getItem("jobId2");
   const dispatch = useDispatch();
   const details = useSelector((state) => state.appReducer.single);
   useEffect(() => {
@@ -18,7 +17,6 @@ const JobDetails = () => {
   }, [dispatch, id, details?.length]);
   console.log("id", id);
 
- 
   console.log("details single", details);
   return (
     <div>
@@ -67,7 +65,7 @@ const JobDetails = () => {
               </Flex>
             </Flex>
             <Box fontSize=".8rem" color="gray" margin="1rem 1rem 1rem 1rem">
-              {Parser(details.jobDescription)}
+              {/* {Parser(details.jobDescription)} */}
             </Box>
           </Box>
         </Box>
