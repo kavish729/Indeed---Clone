@@ -4,8 +4,6 @@ import {
   Wrap,
   WrapItem,
   Box,
-  useDisclosure,
-  Button,
   Container,
   Flex,
   EditablePreview,
@@ -23,20 +21,20 @@ import React, { useEffect, useState } from 'react';
 import LocationIcon from '../components/Navbar/Icons/location.svg';
 
 const Profile = () => {
-   const [user, setUser] = useState([]);
-   const [iconName, setIconName] = useState("");
-   const Name=iconName.toLocaleLowerCase()
-  
-   useEffect(() =>{
-     if (localStorage.hasOwnProperty('token')) {
-     let value = localStorage.getItem('token');
-     value = JSON.parse(value);
-     setUser(value.user);
-     }
-    },[])
-    useEffect(() =>{
-       setIconName(user.name+" ");
-    },[user])
+  const [user, setUser] = useState([]);
+  const [iconName, setIconName] = useState('');
+  const Name = iconName.toLocaleLowerCase();
+
+  useEffect(() => {
+    if (localStorage.hasOwnProperty('token')) {
+      let value = localStorage.getItem('token');
+      value = JSON.parse(value);
+      setUser(value.user);
+    }
+  }, []);
+  useEffect(() => {
+    setIconName(user.name + ' ');
+  }, [user]);
 
   return (
     <Box>
@@ -79,7 +77,6 @@ const Profile = () => {
             </Box>
           </Flex>
         </Box>
-
         <Box paddingTop="40px">
           <Box
             p={5}
@@ -156,7 +153,6 @@ Save specific details like desired pay and schedule that help us match you with 
         </Breadcrumb>
       </Box>
     </Box>
-    //  -
   );
 };
 
