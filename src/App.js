@@ -7,7 +7,11 @@ function App() {
     <div className="App">
       <Navbar />
       <AllRouter/>
+
+
+
       <Chakrafooter/>
+
     </div>
 
   );
