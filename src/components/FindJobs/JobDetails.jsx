@@ -67,7 +67,7 @@ const JobDetails = () => {
               </Flex>
             </Flex>
             <Box fontSize=".8rem" color="gray" margin="1rem 1rem 1rem 1rem">
-              {Parser(details.jobDescription)}
+              {/* {Parser(details.jobDescription)} */}
             </Box>
           </Box>
         </Box>
