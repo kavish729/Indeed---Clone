@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getJobs } from "../../redux/appReducer/actions";
@@ -5,6 +6,7 @@ import { Box, Flex, Text, Icon } from "@chakra-ui/react";
 import { MdMoney, MdOutlineAllInbox } from "react-icons/md";
 import Parser from "html-react-parser";
 import { Link } from "react-router-dom";
+
 
 
 
