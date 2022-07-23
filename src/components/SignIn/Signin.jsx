@@ -80,7 +80,7 @@ const SignIn = () => {
                 src={Indeed}
               />
               <br />
-              <Heading fontSize={'2xl'}>Create a new account</Heading>
+              <Heading fontSize={'2xl'}>Sign in</Heading>
               <FormControl id="email" isRequired>
                 <FormLabel>Email address</FormLabel>
                 <Input
