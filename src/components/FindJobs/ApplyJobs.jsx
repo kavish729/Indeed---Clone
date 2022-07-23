@@ -1,6 +1,7 @@
 import { Box, Input, Text, Select, FormControl } from "@chakra-ui/react";
 import axios from "axios";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ApplyJobs = () => {
   const [formData, setFormData] = useState({
@@ -10,6 +11,10 @@ const ApplyJobs = () => {
     education:"",
     resume:""
   });
+
+  const handleNot=(e)=>{
+alert("you applied successfully ")
+  }
 
   const handleChange = (e) => {
     const newData = { ...formData };
@@ -29,13 +34,13 @@ const ApplyJobs = () => {
     })
   };
   return (
-    <FormControl onSubmit={(e) => handleSubmit(e)}>
-      <Box
+    <form onSubmit={(e) => handleSubmit(e)}>
+      <div
         marginLeft="5rem"
         box-shadow="rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px"
       >
-        <Text marginTop="1rem">Full Name</Text>
-        <Input
+        <p marginTop="1rem">Full Name</p>
+        <input
           type="text"
           size="md"
           w="md"
@@ -44,42 +49,51 @@ const ApplyJobs = () => {
           id="name"
           onChange={(e) => handleChange(e)}
         />
-        <Text marginTop="1rem">Email</Text>
-        <Input
+        <p marginTop="1rem">Email</p>
+        <input
          type="text"
           size="md"
            w="md" 
            id="email"
            value={formData.email}
+           onChange={(e) => handleChange(e)}
            placeholder="Enter email address" />
-        <Text marginTop="1rem">Phone Number</Text>
-        <Input
+        <p marginTop="1rem">Phone Number</p>
+        <input
           type="text"
           size="md"
           w="md"
           value={formData.phone}
           id="phone"
           placeholder="Enter Phone number"
+          onChange={(e) => handleChange(e)}
         />
         <Text marginTop="1rem">
           What is the highest level of education you have completed?
         </Text>
-        <Select value={formData.education} id="education" w="md" placeholder="Highest Qualification">
-          <option value="option1">Intermediate</option>
-          <option value="option2">Graduation</option>
-          <option value="option3">Post Graduation</option>
-        </Select>
-        <Text marginTop="1rem">Resume Uploads</Text>
-        <Input type="file" size="md" w="md" id="resume" value={formData.resume} />
-        <Input
+        <select value={formData.education}
+        onChange={(e) => handleChange(e)}
+         id="education"
+          w="md"
+         placeholder="Highest Qualification">
+          <option value="Intermediate">Intermediate</option>
+          <option value="Graduation">Graduation</option>
+          <option value="Post Graduation">Post Graduation</option>
+        </select>
+        <p marginTop="1rem">Resume Uploads</p>
+        <input type="file" size="md" w="md" id="resume" onChange={(e) => handleChange(e)} value={formData.resume} />
+       <Link to="/">
+        <input
           marginTop="1rem"
           color="white"
           bg="blue.500"
           type="submit"
           placeholder="Apply"
+          onClick={(e)=>handleNot(e)}
         />
-      </Box>
-    </FormControl>
+        </Link>
+      </div>
+    </form>
   );
 };
 
