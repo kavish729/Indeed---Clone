@@ -36,8 +36,8 @@ const CompanyLandingPage = () => {
           <Tab>Photos</Tab>
         </TabList>
 
-        <TabPanels>
-          <TabPanel>
+        <TabPanels >
+          <TabPanel >
             <Snapshot />{" "}
           </TabPanel>
           <TabPanel>
@@ -63,6 +63,7 @@ const CompanyLandingPage = () => {
           </TabPanel>
         </TabPanels>
       </Tabs>
+      
     </Container>
   );
 };

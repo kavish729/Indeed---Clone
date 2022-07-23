@@ -7,6 +7,7 @@ import { FooterHelp } from "../components/HelpCenter/FooterHelp";
 
 export const HelpCenter = () => {
   const { colorMode } = useColorMode();
+  document.title = "Custom Title";
 
   return (
     <Box>

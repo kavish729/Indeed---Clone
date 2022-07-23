@@ -16,6 +16,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 // countries name
 const languages = [
@@ -72,11 +73,13 @@ export const NavHelp = () => {
           alignItems="center"
           gap="16px"
         >
-          <Image
-            src="https://theme.zdassets.com/theme_assets/499832/0671704df754683d3a836feff8546bb108cc1f1b.svg"
-            w="127.5"
-            h="34"
-          />
+          <NavLink to="/">
+            <Image
+              src="https://theme.zdassets.com/theme_assets/499832/0671704df754683d3a836feff8546bb108cc1f1b.svg"
+              w="127.5"
+              h="34"
+            />
+          </NavLink>
           <Text
             fontSize="1.25rem"
             as="b"
