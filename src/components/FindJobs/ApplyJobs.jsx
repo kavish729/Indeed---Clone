@@ -1,4 +1,4 @@
-import { Box, Input, Text, Select, FormControl } from "@chakra-ui/react";
+import "./finds.css"
 import axios from "axios";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -36,59 +36,52 @@ alert("you applied successfully ")
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
       <div
-        marginLeft="5rem"
-        box-shadow="rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px"
+        className="mainDiv"
       >
-        <p marginTop="1rem">Full Name</p>
+        <p className="pTag">Full Name</p>
         <input
           type="text"
-          size="md"
-          w="md"
+         className="inputTag"
           placeholder="Enter your name"
           value={formData.name}
           id="name"
           onChange={(e) => handleChange(e)}
         />
-        <p marginTop="1rem">Email</p>
+        <p className="pTag">Email</p>
         <input
          type="text"
-          size="md"
-           w="md" 
+         className="inputTag"
            id="email"
            value={formData.email}
            onChange={(e) => handleChange(e)}
            placeholder="Enter email address" />
-        <p marginTop="1rem">Phone Number</p>
+        <p className="pTag">Phone Number</p>
         <input
           type="text"
-          size="md"
-          w="md"
           value={formData.phone}
           id="phone"
+          className="inputTag"
           placeholder="Enter Phone number"
           onChange={(e) => handleChange(e)}
         />
-        <Text marginTop="1rem">
+        <p className="pTag">
           What is the highest level of education you have completed?
-        </Text>
-        <select value={formData.education}
+        </p>
+        <select className="inputTag" value={formData.education}
         onChange={(e) => handleChange(e)}
          id="education"
-          w="md"
          placeholder="Highest Qualification">
           <option value="Intermediate">Intermediate</option>
           <option value="Graduation">Graduation</option>
           <option value="Post Graduation">Post Graduation</option>
         </select>
-        <p marginTop="1rem">Resume Uploads</p>
-        <input type="file" size="md" w="md" id="resume" onChange={(e) => handleChange(e)} value={formData.resume} />
+        <p className="pTag">Resume Uploads</p>
+        <input type="file" className="inputTag" id="resume" onChange={(e) => handleChange(e)} value={formData.resume} />
        <Link to="/">
         <input
-          marginTop="1rem"
-          color="white"
-          bg="blue.500"
           type="submit"
-          placeholder="Apply"
+          value="Apply"
+          className="btn"
           onClick={(e)=>handleNot(e)}
         />
         </Link>
