@@ -4,6 +4,7 @@ import Byindustry from "../components/salaryguide/Byindustry";
 import Bycompany from "../components/salaryguide/Bycompany";
 import Salaryearning from "../components/salaryguide/Salaryearning";
 import Secfooter from "../components/salaryguide/Secfooter";
+import Salarymainfooter from "../components/salaryguide/Salarymainfooter";
 const Industryarray = [
   { name: "Elementary School Teacher", salary: "2,47,310 per year" },
   { name: "Human Resources Specialist", salary: "2,15,486 per year" },
@@ -256,6 +257,7 @@ const SalaryGuide = () => {
       <div>
         <Secfooter />
       </div>
+      <Salarymainfooter/>
     </>
   );
 };
