@@ -23,12 +23,14 @@ import Photos from '../CompanyLandingPage/Tabs/Photos'
 import Salaries from '../CompanyLandingPage/Tabs/Salaries'
 import ReqAuth from '../ReqAuth/ReqAuth'
 import CompareCompanies from '../../pages/CompareCompanies'
+import ApplyJobs from '../FindJobs/ApplyJobs'
 
 
 const AllRouter = () => {
   return (
     <Routes>
       <Route path="/" element={<Findjobs />} />
+      <Route path='/applyjobs' element={<ApplyJobs/>}/>
       <Route path="/companies" element={<CompanyReview />} />
       <Route path="/salary" element={<SalaryGuide />} />
       <Route

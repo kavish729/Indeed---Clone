@@ -14,7 +14,8 @@
       "photos": 23,
       "jobs": 173,
       "questions": 94,
-      "ratings": 5,"reviews":1326
+      "ratings": 5,
+      "reviews": 1326
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@
       "photos": 174,
       "jobs": 2005,
       "questions": 19,
-      "ratings": 5,"reviews":7546
+      "ratings": 5,
+      "reviews": 7546
     },
     {
       "id": 3,
@@ -46,7 +48,8 @@
       "photos": 72,
       "jobs": 1493,
       "questions": 22,
-      "ratings": 4,"reviews":736
+      "ratings": 4,
+      "reviews": 736
     },
     {
       "id": 4,
@@ -62,7 +65,8 @@
       "photos": 43,
       "jobs": 475,
       "questions": 13,
-      "ratings": 3,"reviews":1326
+      "ratings": 3,
+      "reviews": 1326
     },
     {
       "id": 5,
@@ -78,7 +82,8 @@
       "photos": 7,
       "jobs": 7,
       "questions": 34,
-      "ratings": 3,"reviews":1146
+      "ratings": 3,
+      "reviews": 1146
     },
     {
       "id": 6,
@@ -94,12 +99,10 @@
       "photos": 1,
       "jobs": 3,
       "questions": 13,
-      "ratings": 4,"reviews":421
+      "ratings": 4,
+      "reviews": 421
     }
-  ]
-  
-  ,
-
+  ],
   "reviews": [
     {
       "id": 1,
@@ -108,7 +111,7 @@
       "rating": 5,
       "date": "October 4, 2017",
       "title": "Fun Place",
-      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work" 
+      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work"
     },
     {
       "id": 2,
@@ -144,7 +147,7 @@
       "rating": 5,
       "date": "October 4, 2017",
       "title": "Fun Place",
-      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work" 
+      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work"
     },
     {
       "id": 6,
@@ -180,7 +183,7 @@
       "rating": 5,
       "date": "October 4, 2017",
       "title": "Fun Place",
-      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work" 
+      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work"
     },
     {
       "id": 10,
@@ -216,7 +219,7 @@
       "rating": 5,
       "date": "October 4, 2017",
       "title": "Fun Place",
-      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work" 
+      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work"
     },
     {
       "id": 14,
@@ -252,7 +255,7 @@
       "rating": 5,
       "date": "October 4, 2017",
       "title": "Fun Place",
-      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work" 
+      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work"
     },
     {
       "id": 18,
@@ -288,7 +291,7 @@
       "rating": 5,
       "date": "October 4, 2017",
       "title": "Fun Place",
-      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work" 
+      "description": "It is really a awesome company all positive sprit attitude guys I meet there and the culture in the company is too good at that time , reason to quit is relocating from Delhi to Bangalore that cost my job else it's a best place to work"
     },
     {
       "id": 22,
@@ -318,8 +321,7 @@
       "description": "It was inbound calls flow from morning to evening, so much calls to handle but had chance to interact with different types of people all over the India. I have to resolve the problems of customer, related to shopping/payment issues."
     }
   ],
-
-  "jobs":[
+  "jobs": [
     {
       "jobkey": "5ff03bc81dcc4a903dd6dce6",
       "companyName": "DUFLEX",
@@ -335,7 +337,7 @@
       "education": "12th Pass",
       "id": 0,
       "jobTitle": "Gym instructor",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -353,7 +355,7 @@
       "education": "Masters degree",
       "id": 10,
       "jobTitle": "React Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -371,7 +373,7 @@
       "education": "Bachelors degree",
       "id": 20,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -389,7 +391,7 @@
       "education": "12th Pass",
       "id": 30,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -407,7 +409,7 @@
       "education": "Masters degree",
       "id": 40,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -425,7 +427,7 @@
       "education": "12th Pass",
       "id": 50,
       "jobTitle": "Operation Manager",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -443,7 +445,7 @@
       "education": "12th Pass",
       "id": 60,
       "jobTitle": "Javscript Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -461,7 +463,7 @@
       "education": "Masters degree",
       "id": 70,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -479,7 +481,7 @@
       "education": "Diploma",
       "id": 80,
       "jobTitle": "Teacher",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -497,7 +499,7 @@
       "education": "12th Pass",
       "id": 90,
       "jobTitle": "Bpo Officcer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -515,7 +517,7 @@
       "education": "12th Pass",
       "id": 100,
       "jobTitle": "Java Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -533,7 +535,7 @@
       "education": "Bachelors degree",
       "id": 110,
       "jobTitle": "Bpo Officcer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -551,7 +553,7 @@
       "education": "12th Pass",
       "id": 120,
       "jobTitle": "Operation Manager",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -569,7 +571,7 @@
       "education": "Masters degree",
       "id": 130,
       "jobTitle": "Gym instructor",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -587,7 +589,7 @@
       "education": "12th Pass",
       "id": 140,
       "jobTitle": "Operation Manager",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -605,7 +607,7 @@
       "education": "Diploma",
       "id": 150,
       "jobTitle": "Java Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -623,7 +625,7 @@
       "education": "Masters degree",
       "id": 160,
       "jobTitle": "React Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -641,7 +643,7 @@
       "education": "Bachelors degree",
       "id": 170,
       "jobTitle": "Teacher",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -659,7 +661,7 @@
       "education": "Diploma",
       "id": 180,
       "jobTitle": "Teacher",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -677,7 +679,7 @@
       "education": "Diploma",
       "id": 190,
       "jobTitle": "Machine Learning",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -695,7 +697,7 @@
       "education": "Diploma",
       "id": 200,
       "jobTitle": "Operation Manager",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -713,7 +715,7 @@
       "education": "Bachelors degree",
       "id": 210,
       "jobTitle": "Gym instructor",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -731,7 +733,7 @@
       "education": "Diploma",
       "id": 220,
       "jobTitle": "Secretary",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -749,7 +751,7 @@
       "education": "Bachelors degree",
       "id": 230,
       "jobTitle": "Gym instructor",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -767,7 +769,7 @@
       "education": "Bachelors degree",
       "id": 240,
       "jobTitle": "Machine Learning",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -785,7 +787,7 @@
       "education": "Masters degree",
       "id": 250,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -803,7 +805,7 @@
       "education": "Masters degree",
       "id": 260,
       "jobTitle": "Secretary",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -821,7 +823,7 @@
       "education": "Masters degree",
       "id": 270,
       "jobTitle": "Machine Learning",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -839,7 +841,7 @@
       "education": "Bachelors degree",
       "id": 280,
       "jobTitle": "React Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -857,7 +859,7 @@
       "education": "Bachelors degree",
       "id": 290,
       "jobTitle": "Javscript Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -875,7 +877,7 @@
       "education": "Diploma",
       "id": 300,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -893,7 +895,7 @@
       "education": "12th Pass",
       "id": 310,
       "jobTitle": "Senior Accountnt",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -911,7 +913,7 @@
       "education": "12th Pass",
       "id": 320,
       "jobTitle": "React Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -929,7 +931,7 @@
       "education": "Diploma",
       "id": 330,
       "jobTitle": "Machine Learning",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -947,7 +949,7 @@
       "education": "Diploma",
       "id": 340,
       "jobTitle": "Javscript Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -965,7 +967,7 @@
       "education": "12th Pass",
       "id": 350,
       "jobTitle": "Senior Accountnt",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -983,7 +985,7 @@
       "education": "Diploma",
       "id": 360,
       "jobTitle": "Secretary",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -1001,7 +1003,7 @@
       "education": "12th Pass",
       "id": 370,
       "jobTitle": "Data Scientist",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -1019,7 +1021,7 @@
       "education": "Diploma",
       "id": 380,
       "jobTitle": "Java Developer",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -1037,7 +1039,7 @@
       "education": "Masters degree",
       "id": 390,
       "jobTitle": "Teacher",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "jobDescription": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>Job Types: Full-time, Walk-In</p><p>Salary: ₹15,000.00 - ₹17,000.00 per month</p><p>Schedule:</p><ul><li>Morning shift</li></ul><p>Experience:</p><ul><li>total work: 3 years (Required)</li></ul><p>Education:</p><ul><li>Bachelors (Required)</li></ul><p>Language:</p><ul><li>English (Required)</li></ul><p>Duties:</p><ul><li>Taking notes/dictation</li><li>Handle billing / accounts/Inventory</li><li>Maintain files and records</li><li>Scheduling appointments</li><li>Vendor Management</li></ul><p>Industry:</p><ul><li>Marketing</li></ul><p>Work Remotely:</p><ul><li>No</li></ul><p>COVID-19 Precaution(s):</p><ul><li>Remote interview process</li></ul><p><strong>Speak with the employer</strong></p><p>+91 9811212687</p><p>Just posted</p><p><strong>Report job</strong></p><p><br></p>"
     },
     {
@@ -1055,9 +1057,8 @@
       "snippet": "ssss",
       "date": 1609585864276,
       "jobkey": "45574206-afb2-4c59-9bfe-b803e6472ba6",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "id": 391
-      
     },
     {
       "companyName": "",
@@ -1074,7 +1075,7 @@
       "snippet": "",
       "date": 1609586256777,
       "jobkey": "7c000833-6033-4185-9022-c93441b570ab",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "id": 392
     },
     {
@@ -1092,7 +1093,7 @@
       "snippet": "",
       "date": 1609586575460,
       "jobkey": "5923610f-3ba0-4df0-a57d-d9ac8778a46e",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "id": 393
     },
     {
@@ -1110,9 +1111,9 @@
       "snippet": "",
       "date": 1609588099260,
       "jobkey": "1953fee1-c185-435b-8c63-b07163daa58b",
-      "jobDetails":"<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
+      "jobDetails": "<p><strong>Excellent Follow-Up Skill along with very sharp memory for regular reminders</strong></p><p><strong>Good Command over English</strong></p><p><strong>Scheduling Meetings and day to day tasks</strong></p><p><strong>Married Candidates are Preferred</strong></p><p><strong>Our Office Timings are</strong></p><p><strong>Monday to Saturday</strong></p><p><strong>10 am to 7 PM</strong></p><p>",
       "id": 394
     }
-  ]
-
+  ],
+  "student": []
 }
