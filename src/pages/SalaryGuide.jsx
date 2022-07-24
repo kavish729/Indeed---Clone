@@ -177,6 +177,7 @@ const SalaryGuide = () => {
                 </div>
                 <hr style={{ width: "100%", color: "black" }} />
                 <a
+                  href=" "
                   style={{
                     textDecoration: "underline",
                     color: "teal",
@@ -224,6 +225,7 @@ const SalaryGuide = () => {
                   <img
                     style={{ height: "60px", borderRadius: "5px" }}
                     src={item.compimg}
+                    alt=""
                   />
                   <div style={{ marginTop: "10px" }}>
                     <p style={{ fontSize: "17px" }}>{item.name}</p>
@@ -232,6 +234,7 @@ const SalaryGuide = () => {
                       <img
                         style={{ height: "10px", marginTop: "8px" }}
                         src={item.ratimg}
+                        alt=""
                       />
                       <p
                         style={{
@@ -257,7 +260,7 @@ const SalaryGuide = () => {
       <div>
         <Secfooter />
       </div>
-      <Salarymainfooter/>
+      <Salarymainfooter />
     </>
   );
 };
