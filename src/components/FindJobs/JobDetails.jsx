@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import { getJobs, getSingleJobs } from "../../redux/appReducer/actions";
-import { Box, Flex, Text, Icon } from "@chakra-ui/react";
+import {  getSingleJobs } from "../../redux/appReducer/actions";
+import { Box, Flex, Text, Icon, Button } from "@chakra-ui/react";
 import { MdMoney, MdOutlineAllInbox } from "react-icons/md";
 import Parser from "html-react-parser";
+import { Link } from "react-router-dom";
 
 const JobDetails = () => {
   let id = localStorage.getItem("jobId2");
@@ -22,7 +22,7 @@ const JobDetails = () => {
     <div>
       <Box color="grey.100">
         <Box
-          borderRadius="1%"
+          borderRadius="md"
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           border="1px solid grey"
           marginLeft="1rem"
@@ -64,6 +64,7 @@ const JobDetails = () => {
                 <Box marginLeft=".2rem">{details.jobType}</Box>
               </Flex>
             </Flex>
+            <Link to='/applyjobs'><Button margin='1rem 1rem 1rem 1rem' colorScheme='blue'>Apply Now</Button></Link>
             <Box fontSize=".8rem" color="gray" margin="1rem 1rem 1rem 1rem">
               {/* {Parser(details.jobDescription)} */}
             </Box>

@@ -26,7 +26,7 @@ const Jobfeeds = () => {
           <Link key={item.id} onClick={()=>setJobId(item.id)}  to="/">
             <Box
               key={item.id}
-              borderRadius="1%"
+              borderRadius="md"
               boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
               border="1px solid grey"
               marginLeft="10rem"
