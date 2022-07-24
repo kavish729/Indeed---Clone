@@ -25,25 +25,28 @@ export const getcompanyApi = () => (dispatch) => {
 };
 
 export const getJobs = () => (dispatch) => {
+
   dispatch({ type: GET_JOBS_REQUESET });
   axios
     .get('https://indeeddatabase.herokuapp.com/jobs')
     .then((response) => {
       console.log(response.data);
       dispatch({ type: GET_JOBS_SUCCESS, payload: response.data });
-    })
+
     .catch((error) => {
       dispatch({ type: GET_JOBS_FAILURE });
     });
 };
 
 export const getSingleJobs = (id) => (dispatch) => {
+
   dispatch({ type: GET_SINGLE_JOBS_REQUESET });
   axios
     .get(`https://indeeddatabase.herokuapp.com/jobs/${id}`)
     .then((response) => {
       console.log(response.data);
       dispatch({ type: GET_SINGLE_JOBS_SUCCESS, payload: response.data });
+
     })
     .catch((error) => {
       dispatch({ type: GET_SINGLE_JOBS_FAILURE });

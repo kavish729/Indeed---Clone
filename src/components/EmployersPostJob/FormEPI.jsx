@@ -5,15 +5,17 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
-  Button,
+  Flex,
   FormControl,
   FormErrorMessage,
   FormLabel,
   Icon,
+  Image,
   Input,
   Link,
   Select,
   Text,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import {
   BsExclamationCircleFill,
@@ -74,9 +76,9 @@ const reducer = (state, action) => {
 };
 
 const initState = {
-  companyName: "",
+  companyName: " ",
   numOfEmployees: "",
-  firstLastName: "",
+  firstLastName: " ",
   phoneNumber: "",
   hiringRole: "",
   hiringBudget: "",
@@ -86,17 +88,31 @@ const initState = {
 const FormEPI = () => {
   // const [input, setInput] = useState("");
   const [state, setter] = useReducer(reducer, initState);
-  console.log(state);
+  const [isSmallerThan1220] = useMediaQuery("(max-width: 1220px)");
+  const [isSmallerThan480] = useMediaQuery("(max-width: 480px)");
+  const [isSmallerThan720] = useMediaQuery("(max-width: 720px)");
 
   const isErrorCompanyName = state.companyName === "";
   const isErrorFirstLastName = state.firstLastName === "";
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setter({ type: "companyName", payload: " " });
+    setter({ type: "numOfEmployees", payload: "" });
+    setter({ type: "firstLastName", payload: " " });
+    setter({ type: "phoneNumber", payload: "" });
+    setter({ type: "hiringRole", payload: "" });
+    setter({ type: "hiringBudget", payload: "" });
+    console.log(state);
+  };
+
   return (
-    <Box pt="80px" w="72%" m="auto">
-      <form>
-        <Box>
+    <Box pt="80px" w={isSmallerThan720 ? "95%" : "75%"} m="auto">
+      <form onSubmit={handleSubmit}>
+        <Flex justifyContent={isSmallerThan720 ? "center" : ""}>
           {/* Accordion start here */}
-          <Box w="55%">
+          <Box w={isSmallerThan1220 ? "90%" : "55%"}>
             <Box m="0px 0px 16px" color="#2d2d2d" fontWeight="700">
               <Text fontSize="28px">Create an employer account</Text>
             </Box>
@@ -295,7 +311,6 @@ const FormEPI = () => {
                   onChange={(e) =>
                     setter({ type: "phoneNumber", payload: e.target.value })
                   }
-                  required
                 />
               </FormControl>
             </Box>
@@ -399,14 +414,38 @@ const FormEPI = () => {
             </Box>
             {/* end here */}
             {/* {isErrorCompanyName || isErrorFirstLastName ? <Box></Box> : ""} */}
-            <Box>
-              <Button colorScheme="#2557a7" type="submit">
-                Save and continue
-              </Button>
+            <Box mt="10px" mb="20px" display="flex" justifyContent="flex-end">
+              <Input
+                type="submit"
+                value="Save and continue"
+                bg="#2557a7"
+                color="white"
+                fontWeight="700"
+                fontSize="16px"
+                p="9px 16px"
+                w={isSmallerThan480 ? "100%" : "181px"}
+                alignItems="center"
+                h="46px"
+                cursor="pointer"
+                _hover={{ bg: "#124699ea" }}
+                _active={false}
+              />
             </Box>
           </Box>
-          <Box></Box>
-        </Box>
+          {isSmallerThan1220 ? (
+            ""
+          ) : (
+            <Box w="50%" pl="50px" pt="50px">
+              <Image
+                src={
+                  "https://storage.cloudconvert.com/tasks/90443d60-1f4e-4de7-b871-0a7f16c5ecd2/svgexport-5.png?AWSAccessKeyId=cloudconvert-production&Expires=1658722699&Signature=l6Rw%2BdoAgv0bDYVc%2Bn1BzwLZBhs%3D&response-content-disposition=inline%3B%20filename%3D%22svgexport-5.png%22&response-content-type=image%2Fpng"
+                }
+                alt="girl image"
+                w="60vw"
+              />
+            </Box>
+          )}
+        </Flex>
       </form>
     </Box>
   );

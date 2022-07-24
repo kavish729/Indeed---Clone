@@ -1,6 +1,7 @@
 import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 import React from "react";
 import { IoIosHelpCircle } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 const HeaderEPJ = () => {
   return (
@@ -39,7 +40,9 @@ const HeaderEPJ = () => {
           alignItems="center"
           fontSize="14.3px"
         >
-          <Text fontWeight="ligher">Need Help</Text>
+          <Text fontWeight="ligher">
+            <NavLink to="/help"> Need Help </NavLink>
+          </Text>
           <Icon as={IoIosHelpCircle} fontSize="16px" mt="1px" />
         </Flex>
       </Flex>

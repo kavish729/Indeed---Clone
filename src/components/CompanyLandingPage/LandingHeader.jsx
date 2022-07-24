@@ -8,11 +8,19 @@ import {
   Image,
   Spacer,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import { AiFillStar } from "react-icons/ai";
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
+import { getcompanyApi } from "../../redux/appReducer/actions";
 
 const LandingHeader = ({ id }) => {
+  const dispatch=useDispatch();
+  
+  useEffect(()=>{
+    
+    dispatch(getcompanyApi())
+    
+  },[]);
   const { data } = useSelector((state) => state.appReducer);
   const company = data.find((company) => company.id == id);
   return (

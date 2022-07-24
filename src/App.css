@@ -10,7 +10,7 @@
 }
 .salmdiv{
   display:flex;
-  box-sizing: border-box;
+  width:100%
 }
 .salfdiv>h1{
   text-align: left;
@@ -229,6 +229,7 @@ text-decoration:none solid rgb(45, 45, 45)
 .mainsecfooterdiv{
   background: #eff2f6;
   padding-top:20px;
+  padding-bottom:20px;
   font-family:
 "Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif
 }

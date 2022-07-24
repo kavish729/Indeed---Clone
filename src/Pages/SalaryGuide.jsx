@@ -4,6 +4,7 @@ import Byindustry from "../components/salaryguide/Byindustry";
 import Bycompany from "../components/salaryguide/Bycompany";
 import Salaryearning from "../components/salaryguide/Salaryearning";
 import Secfooter from "../components/salaryguide/Secfooter";
+import Salarymainfooter from "../components/salaryguide/Salarymainfooter";
 const Industryarray = [
   { name: "Elementary School Teacher", salary: "2,47,310 per year" },
   { name: "Human Resources Specialist", salary: "2,15,486 per year" },
@@ -176,6 +177,7 @@ const SalaryGuide = () => {
                 </div>
                 <hr style={{ width: "100%", color: "black" }} />
                 <a
+                  href=" "
                   style={{
                     textDecoration: "underline",
                     color: "teal",
@@ -223,6 +225,7 @@ const SalaryGuide = () => {
                   <img
                     style={{ height: "60px", borderRadius: "5px" }}
                     src={item.compimg}
+                    alt=""
                   />
                   <div style={{ marginTop: "10px" }}>
                     <p style={{ fontSize: "17px" }}>{item.name}</p>
@@ -231,6 +234,7 @@ const SalaryGuide = () => {
                       <img
                         style={{ height: "10px", marginTop: "8px" }}
                         src={item.ratimg}
+                        alt=""
                       />
                       <p
                         style={{
@@ -256,6 +260,8 @@ const SalaryGuide = () => {
       <div>
         <Secfooter />
       </div>
+      <Salarymainfooter />
+      {/* <Salarymainfooter/> */}
     </>
   );
 };
