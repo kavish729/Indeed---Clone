@@ -63,6 +63,7 @@ const CompanyLandingPage = () => {
           </TabPanel>
         </TabPanels>
       </Tabs>
+      
     </Container>
   );
 };

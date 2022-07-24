@@ -8,12 +8,12 @@ const Seachbar = () => {
     <Box>
         <Box borderBottom='1px solid gray'>
   <Flex marginLeft='15rem' > 
-      <Flex borderRadius='5%' marginLeft='1rem' marginRight='1rem' border='1px solid black'>
+      <Flex borderRadius='md' marginLeft='1rem' marginRight='1rem' border='1px solid black'>
           <Text fontWeight='bold'  marginTop='.5em'>What</Text>
           <Input w='20em' border='null'  placeholder='job titles, keyword or compnay'/>
           <Icon as={MdSearch} marginTop='.8em' color='black'/>
       </Flex>
-      <Flex border='1px solid black' borderRadius='5%'>
+      <Flex border='1px solid black' borderRadius='md'>
           <Text fontWeight='bold' marginTop='.5em'>Where</Text>
           <Input w='20em' border='null'  placeholder='City state or pincode'/>
           <Icon marginTop='.8em' color='black' as={MdLocationOn}/>

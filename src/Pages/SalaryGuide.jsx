@@ -261,6 +261,7 @@ const SalaryGuide = () => {
         <Secfooter />
       </div>
       <Salarymainfooter />
+      {/* <Salarymainfooter/> */}
     </>
   );
 };

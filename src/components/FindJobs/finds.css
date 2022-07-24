@@ -1,0 +1,20 @@
+.mainDiv{
+    margin-left: 5rem;
+}
+.pTag{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.inputTag{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 2%;
+}
+.btn{
+    background-color: rgb(1, 1, 48);
+    width: 20rem;
+    height: 2rem;
+    color: white;
+    font-weight: 600;
+}

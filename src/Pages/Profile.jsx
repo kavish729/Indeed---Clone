@@ -24,6 +24,7 @@ const Profile = () => {
   const [user, setUser] = useState([]);
   const [iconName, setIconName] = useState('');
   const Name = iconName.toLocaleLowerCase();
+  console.log('Name:', Name)
 
   useEffect(() => {
     if (localStorage.hasOwnProperty('token')) {
@@ -33,8 +34,8 @@ const Profile = () => {
     }
   }, []);
   useEffect(() => {
-    setIconName(user.name + ' ');
-  }, [user]);
+    setIconName(user.name+"   "+" -");
+  },[user]);
 
   return (
     <Box>
