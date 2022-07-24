@@ -76,9 +76,9 @@ const reducer = (state, action) => {
 };
 
 const initState = {
-  companyName: "",
+  companyName: " ",
   numOfEmployees: "",
-  firstLastName: "",
+  firstLastName: " ",
   phoneNumber: "",
   hiringRole: "",
   hiringBudget: "",
@@ -97,6 +97,13 @@ const FormEPI = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    setter({ type: "companyName", payload: " " });
+    setter({ type: "numOfEmployees", payload: "" });
+    setter({ type: "firstLastName", payload: " " });
+    setter({ type: "phoneNumber", payload: "" });
+    setter({ type: "hiringRole", payload: "" });
+    setter({ type: "hiringBudget", payload: "" });
     console.log(state);
   };
 
@@ -431,7 +438,7 @@ const FormEPI = () => {
             <Box w="50%" pl="50px" pt="50px">
               <Image
                 src={
-                  "https://www.slazzer.com/downloads/5a2286a6-0a76-11ed-86ed-42010a80000a/svgexport-5_prev_ui.png"
+                  "https://storage.cloudconvert.com/tasks/90443d60-1f4e-4de7-b871-0a7f16c5ecd2/svgexport-5.png?AWSAccessKeyId=cloudconvert-production&Expires=1658722699&Signature=l6Rw%2BdoAgv0bDYVc%2Bn1BzwLZBhs%3D&response-content-disposition=inline%3B%20filename%3D%22svgexport-5.png%22&response-content-type=image%2Fpng"
                 }
                 alt="girl image"
                 w="60vw"
