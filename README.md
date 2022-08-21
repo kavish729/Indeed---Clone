@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Indeed (Clone)
+-----
+### For Job seraching and providing Purpose*
+Project: Make a clone of Indeed website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Original-Website: https://in.indeed.com/
 
-## Available Scripts
+Cloned-Website: https://indeed-ten.vercel.app/
 
-In the project directory, you can run:
+Indeed is the #1 job site in the world1 with over 250M unique visitors every month. Indeed strives to put job seekers first, giving them free access to search for jobs, post resumes, and research companies.
 
-### `npm start`
+In this project we have tried to manipulate React, styling using css, chakra and tried to make website more dynamic. With our efforts and the technology stack, that we have learned till now in Unit-5 in the masai school.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technology Stack Used 🌟
+* HTML
+* CSS
+* JavaScript
+* React
+* Redux
+* Chakra
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Snapshots 📷
+* Find Jobs page
 
-### `npm test`
+![Find Jobs page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Findjobs.PNG?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Company Review page
 
-### `npm run build`
+![Company Review page](https://github.com/kavish729/Indeed---Clone/blob/master/public/companyreview.PNG?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Salary Guide page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Salary Guide page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Salaryguide.PNG?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Help Center page
 
-### `npm run eject`
+![Help Center page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Helpcenter.PNG?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Sign-up page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Sign-up page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Signup.PNG?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Sign-in page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Sign-in page](https://github.com/kavish729/Indeed---Clone/blob/master/public/Signin.PNG?raw=true)
 
-## Learn More
+## How to run the Project
+* Clone the repository
+* Write npm start command.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## End Notes 📑
+In this project we were tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of this construct week has given us experiences and we have learned lots of things by applying to the real website and it gave us a lot of confidence. Most of the features are added and functionality of the website is achieved.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Limitations
+All pages are not responsive yet , those pages are might not be properly visible on small screen devices.
